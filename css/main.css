@@ -1,28 +1,22 @@
 html {
   background-color: #c9b5ab;
-  font-weight: normal;
   line-height: 1.5;
-  vw: 50vw;
 }
 
 h1, h2 {
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
+  font-weight: bold;
   font-weight: 700;
 }
 
 a,
 a:link {
-  font-size: 1.5rem;
-<<<<<<< HEAD
-  font-family: "PT Sans", sans-serif;
-=======
+  font-size: 1.125rem;
   font-family: 'PT Sans', sans-serif;
->>>>>>> origin/gh-pages
   color: #8f2440;
   text-decoration: none;
-}
 
 a:hover {
   color: #3f1622;
@@ -30,43 +24,18 @@ a:hover {
 }
 
 header nav ol {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   list-style-type: none;
+  font-weight: bold;
   font-weight: 700;
 }
 
-<<<<<<< HEAD
-main figcaption, p {
-  font-family: "PT Serif", serif;
-  color: #222;
-}
-
-h2 ol, ul {
-  font-family: "PT Serif", serif;
-=======
 main figcaption, p{
   font-family: 'PT Serif', serif;
-  font-size: 1.125rem;
   color: #222;
 }
 
 h2 ol, ul{
   font-family: 'PT Serif', serif;
-  font-size: 1.125rem;
->>>>>>> origin/gh-pages
   color: #222;
-}
-
-figcaption {
-<<<<<<< HEAD
-  font-size: 1.125rem;
-=======
-font-size: 1.125rem;
->>>>>>> origin/gh-pages
-  font-style: italic;
-}
-
-figure + p {
-  font-size: 1.5rem;
-  font-weight: 700;
 }

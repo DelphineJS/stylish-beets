@@ -1,9 +1,15 @@
 html {
   background-color: #c9b5ab;
 }
+
 h1, h2 {
   color: #3f1622;
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+header nav ol {
+  color: #8f2440;
+  list-style-type: none;
 }

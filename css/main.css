@@ -32,11 +32,7 @@ a {
   font-family: "PT Sans", san-serif;
   font-size: 1.125rem;
   font-weight: 700;
-}
-
-/* Nav styling unclicked */
-
-a {
+  text-decoration: none;
   text-decoration: none;
   color: #8f2440;
 }
@@ -97,7 +93,7 @@ blockquote footer {
   list-style-type: lower-greek;
 }
 
-/* Nutritional information styling*/
+/* Nutritional information styling */
 
 .serving-size {
   font-style: italic;

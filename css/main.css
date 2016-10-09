@@ -1,30 +1,32 @@
- /* Overall styling */
+/* Overall styling */
+
 html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;
-  width: 27%;
 }
 
 img {
   width: 100%;
 }
 
- /* Header styling */
- h1, h2 {
-   font-family: "PT Sans", sans-serif;
-   color: #3f1622;
-   font-size: 1.5rem;
-   font-weight:700;
- }
+/* Header styling */
 
- i {
-   font-weight: 700;
- }
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+  font-size: 1.5rem;
+  font-weight:700;
+}
+
+i {
+  font-weight: 700;
+}
 
 /* Overall nav styling */
+
 a {
   font-family: "PT Sans", san-serif;
   font-size: 1.125rem;
@@ -32,30 +34,58 @@ a {
 }
 
 /* Nav styling unclicked */
+
 a {
-  color: #8f2440;
   text-decoration: none;
+  color: #8f2440;
 }
 
 /* Nav styling hover */
+
 a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
 
-/* Nav styling bullets*/
+/* Nav styling bullets */
+
 nav > ol {
   list-style-type: none;
 }
 
 /* Caption styling */
+
 figure > figcaption {
   font-style: italic;
   font-size: 1.125rem;
   text-align: center;
 }
 
+/* Time period styling */
+
 figure + p {
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+/* Jim quote styling */
+
+p i {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chris Pratt quote styling */
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style:italic;
+}
+
+blockquote p strong {
+  font-weight: normal;
+}
+
+blockquote footer {
+  font-size: 0.8rem;
 }

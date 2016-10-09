@@ -4,7 +4,12 @@ html {
   font-family: font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-weight: normal;
-  line-height: 1.5
+  line-height: 1.5;
+  width: 23%;
+}
+
+img {
+  width: 100%;
 }
 
  /* Header styling */
@@ -12,13 +17,17 @@ html {
    font-family: "PT Sans", sans-serif;
    color: #3f1622;
    font-size: 1.5rem;
-   font-weight: 700; /* Fix bolded text - not working */
+   font-weight:700;
+ }
+
+ i {
+   font-weight: 700;
  }
 
 /* Overall nav styling */
 a {
   font-family: "PT Sans", san-serif;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
@@ -42,4 +51,11 @@ nav > ol {
 /* Caption styling */
 figure > figcaption {
   font-style: italic;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+figure + p {
+  font-size: 1.5rem;
+  font-weight: 700;
 }

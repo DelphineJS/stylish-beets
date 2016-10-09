@@ -6,6 +6,7 @@ html {
   font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;
+  color: #222;
 }
 
 img {
@@ -78,7 +79,7 @@ p i {
 /* Chris Pratt quote styling */
 
 blockquote p {
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* Sizing not as large as it should be */
   font-style:italic;
 }
 
@@ -88,4 +89,27 @@ blockquote p strong {
 
 blockquote footer {
   font-size: 0.8rem;
+}
+
+/* Greek list styling */
+
+.crazy-list {
+  list-style-type: lower-greek;
+}
+
+/* Nutritional information styling*/
+
+.serving-size {
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: 700;
+}
+
+/* Tags styling */
+
+aside ul li {
+  font-size: 0.8rem;
+  list-style-type: circle;
 }

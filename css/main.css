@@ -3,4 +3,20 @@ html {
   background-color: #c9b5ab;
   font-family: font-family: "PT Serif", serif;
   font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.5
+}
+
+ /* Header styling */
+ h1, h2 {
+   font-family: "PT Sans", sans-serif;
+   color: #3f1622;
+   font-size: 1.5rem;
+   font-weight: 700; /* Fix bolded text - not working */
+ }
+
+/* Nav styling */
+a {
+  font-family: "PT Sans", san-serif;
+  font-size: 1.5rem;
 }

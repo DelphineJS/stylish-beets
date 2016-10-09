@@ -15,8 +15,26 @@ html {
    font-weight: 700; /* Fix bolded text - not working */
  }
 
-/* Nav styling */
+/* Nav styling unclicked */
 a {
   font-family: "PT Sans", san-serif;
   font-size: 1.5rem;
+  font-weight: 700;
+}
+
+a,
+a:link {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+/* Nav styling hover */
+a:hover {
+  color: #8f2440;
+
+}
+
+/* Nav styling bullets*/
+nav>ol {
+  list-style-type: none;
 }
